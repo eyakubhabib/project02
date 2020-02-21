@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: arial black;
+}
+
+.header{
+	height: 60px;
+	background: black;
+}
+.header_area{
+	background-image: linear-gradient(#010a0eb5,#010a0eb5) ,url(image/back.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+.contan_area{
+	width: 960px;
+	margin: auto;
+}
+.logo{
+	float: left;
+}
+.logo img{
+		width: 205px;
+		padding-top: 7px;
+}
+.header_menu ul{
+	float: right;
+	margin-top: 21px;
+}
+.header_menu ul li{
+	list-style:none;
+	display: inline-block;
+}
+.header_menu ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px 30px;
+	color: white;
+	font-family: arial;
+}
+.icon{
+	position: absolute;
+	top: 71%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+}
+.icon i{
+	color: white;
+	border: 1px solid white;
+	border-radius: 100%;
+	width: 27px;
+	line-height: 27px;
+	text-align: center;
+	float: right;
+	margin: 5px;
+}
+.s_icon{
+	left: 33%;
+}
+.s_icn{
+	left: 36%;
+}
+.s_ion{
+	left: 39%;
+}
+.s_ico{
+	left: 42%;
+}
+
+.tex_img h3{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.tex_img h1{
+	position: absolute;
+	top:57%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 45px;
+}
+.tex_img p{
+	position: absolute;
+	top:64.5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-family: Century Gothic;
+	background: #2bc98f;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+.section{
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.text{
+	width: 600px;
+	float: left;
+	text-align: justify;
+	margin: 50px 0px 50px 0px; 
+}
+.text span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.text p{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.text .text_area2{
+	font-size: 14px;
+	font-family: arial;
+	line-height: 22px;
+}
+.download{
+	font-size: 13px;
+	background: green;
+	padding: 5px 10px;
+}
+.img img{
+	float: right;
+	width: 180px;
+	margin: 45px 42px 0px 0px;
+
+}
+.download{
+	font-size: 15px;
+	background: green;
+	padding: 5px 10px;
+}
+.text_area2 span{
+	background: #2bc98f;
+	padding: 5px 15px;
+	color: white;
+	font-family: arial;
+	font-size: 13px;
+}
+.all_text_area{
+	margin-top: 40px;
+}
+.service_section_area{
+	text-align: center;
+	padding: 40px 0px 40px;
+	overflow: hidden;
+	
+}
+.sevice_section h1{
+	color: #2bc98f;
+	font-family: arial black;
+	margin-bottom: 20px;
+}
+
+.protfolio_section{
+	text-align: center;
+	background: #f9f9f9;
+	padding: 30px 0px 30px;
+	overflow: hidden;
+}
+.protfolio_section h1{
+	color: #2bc98f;
+	font-family: arial black;
+	margin-bottom: 20px;
+}
+
+.btn{
+	margin-top: 20px;
+}
+.btn ul li{
+	list-style: none;
+	display: inline-block;
+}
+.btn ul li a{
+	text-decoration:none;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #2bc98f;
+	border-radius: 3px;
+}
+.btn ul li a:hover{
+	background: #2bc98f;
+	color: white;
+}
+.protfolio_img{
+	margin-top: 20px;
+}
+.protfolio_img img{
+	width: 270px;
+	margin: 3px;
+}
+.text_area_ser{
+	width: 214px;
+	float: right;
+	padding: 8px;
+	margin: 5px;
+	font-family: arial;
+}
+.textar{
+	width: 170px;
+	float: right;
+	text-align: justify;
+	font-size: 10px;
+}
+.tex_logo{
+	width: 35px;
+	float: left;
+	font-size: 20px;
+}
+.devolopar_area_all{
+	text-align: center;
+	margin: 50px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.devolopar_area_all h1{
+	color: #2bc98f;
+	font-family: arial black;
+	margin-bottom: 20px;
+}
+.devolopar_area{
+	margin-right:88px; 
+}
+.devolopar{
+	float: right;
+	border: 1.5px solid #2bc98f;
+	width: 370px;
+	margin: 5px;
+	border-radius: 5px;
+}
+.devolopar h3{
+	color: #8e928e;
+	margin-top: 50px;
+}
+.devolopar h4{
+	color: #2bc98f;
+}
+.devolopar p{
+	color: #9da5a2;
+    padding: 17px;
+    margin: 5px;
+    font-size: 10px;
+}
+.parson img{
+	width: 50px;
+	position: absolute;
+	margin-top: -31px;
+	margin-left: -30px;
+	border: 1.5px solid #2bc98f;
+	border-radius: 100%;
+}
+
+.signup_area{
+	padding: 30px;
+	margin-top: 50px;
+	background: #f9f9f9;
+}
+
+.signup{
+	margin-left: 85px;
+}
+.signup_area h1{
+	color: #2bc98f;
+	font-family: arial black;
+	margin: 30px;
+	text-align: center;
+}
+.input input{
+	width: 370px;
+    padding: 7px;
+    margin: 3px;
+    border: none;
+	border-radius: 1px;
+	background: #e6e6e6;
+}
+.memo input{
+	width:765px;
+	height: 170px;
+	text-align: left;
+	border: none;
+	border-radius: 1px;
+	background: #e6e6e6;
+}
+.signup p{
+	background: #2bc98f;
+	width: 150px;
+	padding: 5px 10px;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 30px;
+	color: white;
+}
+.footer_text{
+	text-align: center;
+	background: black;
+	color: white;
+	margin-top: 10px;
+}
+.footer_text p{
+	padding: 30px;
+
+}
